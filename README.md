@@ -1,11 +1,12 @@
 
 # Self-Supervised Representation Learning with SimCLR
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red.svg)]()
-[![Self-Supervised Learning](https://img.shields.io/badge/Method-SimCLR-green.svg)]()
-[![Dataset](https://img.shields.io/badge/Dataset-CIFAR10-orange.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![SSL](https://img.shields.io/badge/Self--Supervised-SimCLR-green)
+![Dataset](https://img.shields.io/badge/Dataset-CIFAR10-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 Self-supervised learning has emerged as a powerful paradigm for learning visual representations without requiring labeled datasets.  
 This repository implements the **SimCLR framework for contrastive representation learning** and evaluates its effectiveness on the **CIFAR-10 dataset**.
