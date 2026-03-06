@@ -1,0 +1,3 @@
+Training finished with 10.0% labels
+Training finished with 50.0% labels
+Training finished with 100.0% labels

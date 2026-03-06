@@ -1,0 +1,15 @@
+name: ssl
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - numpy
+      - matplotlib
+      - scikit-learn
+      - tqdm
+      - tensorboard
+      - wandb
