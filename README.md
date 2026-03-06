@@ -144,24 +144,37 @@ Example embedding visualization using t-SNE:
 
 # Repository Structure
 
+## Repository Structure
+
+```
 ssl-image-learning/
 │
-├── data
-├── models
-│   └── simclr_model.py
-├── utils
-│   └── contrastive_loss.py
-├── train
-│   └── train_simclr.py
-├── eval
-│   └── linear_eval.py
-├── experiments
-│   ├── data_scarcity.py
-│   ├── noise_robustness.py
-├── notebooks
-│   └── visualize_embeddings.ipynb
-├── results
-└── README.md
+├── data/                         # Dataset storage (e.g., CIFAR-10)
+│
+├── models/
+│   └── simclr_model.py           # SimCLR encoder + projection head implementation
+│
+├── utils/
+│   └── contrastive_loss.py       # NT-Xent contrastive loss implementation
+│
+├── train/
+│   └── train_simclr.py           # Self-supervised training pipeline for SimCLR
+│
+├── eval/
+│   └── linear_eval.py            # Linear evaluation protocol with frozen encoder
+│
+├── experiments/
+│   ├── data_scarcity.py          # Experiments with limited labeled data
+│   └── noise_robustness.py       # Experiments testing robustness to noisy inputs
+│
+├── notebooks/
+│   └── visualize_embeddings.ipynb  # Visualization of learned representations
+│
+├── results/                      # Training logs, plots, and evaluation outputs
+│
+└── README.md                     # Project documentation
+```
+
 
 ---
 
