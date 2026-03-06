@@ -134,7 +134,7 @@ Noise configuration:
 
 Example embedding visualization using t-SNE:
 
-![Embedding Visualization](download.png)
+![Embedding Visualization](notebooks/download.png)
 
 ## SimCLR Architecture
 
