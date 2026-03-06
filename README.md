@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
 ![SSL](https://img.shields.io/badge/Self--Supervised-SimCLR-green)
-![Dataset](https://img.shields.io/badge/Dataset-CIFAR10-orange)
+[![Dataset](https://img.shields.io/badge/Dataset-CIFAR10-orange.svg)]()
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
